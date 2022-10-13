@@ -1,0 +1,82 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background:url(images/background.jpg) no-repeat center fixed;
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.avatar{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatarlogo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0%;
+    padding:0 0  20px;
+    text-align: center;
+    font-size: 22px;;
+}
+.avatar p{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+}
+.avatar input{
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.avatar input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    -webkit-text-fill-color: #fff;
+}
+.content{
+    padding: 15px 15px;
+} 
+.content h1{
+    top: 50%;
+}
+
+.avatar input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.avatar input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.avatar a:hover{
+    color: #ffc107;
+    
+}
